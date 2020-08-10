@@ -15,6 +15,7 @@
 		9CE78ECA24E163BD0022F0C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE78EC824E163BD0022F0C1 /* LaunchScreen.storyboard */; };
 		9CE78ED524E163BE0022F0C1 /* Swift5TableViewBasic1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE78ED424E163BE0022F0C1 /* Swift5TableViewBasic1Tests.swift */; };
 		9CE78EE024E163BE0022F0C1 /* Swift5TableViewBasic1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE78EDF24E163BE0022F0C1 /* Swift5TableViewBasic1UITests.swift */; };
+		9CE78EEE24E16DE90022F0C1 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE78EED24E16DE90022F0C1 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9CE78EDB24E163BE0022F0C1 /* Swift5TableViewBasic1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift5TableViewBasic1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE78EDF24E163BE0022F0C1 /* Swift5TableViewBasic1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift5TableViewBasic1UITests.swift; sourceTree = "<group>"; };
 		9CE78EE124E163BE0022F0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE78EED24E16DE90022F0C1 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				9CE78EBD24E163B50022F0C1 /* AppDelegate.swift */,
 				9CE78EBF24E163B50022F0C1 /* SceneDelegate.swift */,
 				9CE78EC124E163B50022F0C1 /* ViewController.swift */,
+				9CE78EED24E16DE90022F0C1 /* NextViewController.swift */,
 				9CE78EC324E163B50022F0C1 /* Main.storyboard */,
 				9CE78EC624E163BD0022F0C1 /* Assets.xcassets */,
 				9CE78EC824E163BD0022F0C1 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CE78EC224E163B50022F0C1 /* ViewController.swift in Sources */,
+				9CE78EEE24E16DE90022F0C1 /* NextViewController.swift in Sources */,
 				9CE78EBE24E163B50022F0C1 /* AppDelegate.swift in Sources */,
 				9CE78EC024E163B50022F0C1 /* SceneDelegate.swift in Sources */,
 			);
@@ -443,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.matsushima.mukku.Swift5TableViewBasic1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.matsushima.mukku.Swift5TableViewBasic1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
